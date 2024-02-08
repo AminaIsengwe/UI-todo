@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Second Page</title>
+    <link href="../src/output.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+    <header class=" bg-blue-900">
+        <nav class="flex justify-between mb-4 rounded-md mx-8">
+              <img class="w-30 h-20" src="logo.png" alt="logo">
+              <p class="text-gray-400 mt-auto">...</p>
+              <a href="second-page.html" target="_blank">
+              <button class="bg-orange-500 text-white px-6 py-2 my-3 rounded font-bold hover:bg-orange-700 flex items-center g:text-lg md:text-md sm:text-sm">
+                <i class="fa fa-plus size-15 text-black mr-2"></i>
+                <p class="text-white">Add todo</p>
+              </button>
+              </a>
+            </nav>
+        </header>
+       
+        <form class="bg-white p-4 rounded-md sm:p-4 md:p-6 lg:p-8" id="form1">
+            <p>Name of Pizza</p>
+            <div class="mb-4 bg-gray-100 p-2 rounded border border-gray-400">
+              <div class="flex items-center">
+                <input type="text" id="input"  class="w-full bg-gray-100">
+                <span class="ml-auto">
+                </span>
+              </div>
+            </div> 
+            <div class="flex justify-end">     
+              <button id="button" class="bg-orange-500 text-white px-6 py-2 my-3 rounded font-bold hover:bg-orange-700 flex items-center g:text-lg md:text-md sm:text-sm "onclick="addTodo()"   >
+               
+                  <p class="text-white">Add todo</p>
+                </button>
+              </div>  
+                    
+          </form>
+
+
+</body>
+</html>
